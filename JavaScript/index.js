@@ -4,6 +4,7 @@ let audio = document.getElementById('audio')
 let container = document.querySelector('.elements')
 let liked = []
 let nameSong = document.querySelector('.playerData span')
+let imagesong = document.querySelector('.playerData .imagesong')
 
 function reload(arr, place) {
     place.innerHTML = ''
@@ -46,7 +47,6 @@ function reload(arr, place) {
         album_txt.innerHTML = item.album
         release_txt.innerHTML = item.release
         duration.innerHTML = item.duration
-        nameSong.innerHTML = item.title
 
         song_img.src = item.image
         like_img.src = './Icons/heart.png'
@@ -77,6 +77,8 @@ function reload(arr, place) {
                 audio.src = item.url
                 play_icon.src = './Icons/pause.png'
                 audio.play()
+                nameSong.innerHTML = item.title
+                imagesong.src = item.image
                 
                 TS.style.color = '#00FF00'
                 album.style.color = '#00FF00'
