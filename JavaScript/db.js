@@ -173,7 +173,7 @@ export let songs = [
         album: 'NF`s album',
         release: new Date().getFullYear() - 2019 + ' years ago',
         url: './songs/NF - The Search.mp3',
-        image: '../Images/the search.jpg',
+        image: './Images/the search.jpg',
         duration: '3:15',
         singer: {
             name: 'NF',
@@ -187,7 +187,7 @@ export let songs = [
         album: 'NF`s album',
         release: new Date().getFullYear() - 2015 + ' years ago',
         url: './songs/NF - Paralyzed.mp3',
-        image: '../Images/paralyzed.jpg',
+        image: './Images/paralyzed.jpg',
         duration: '4:30',
         singer: {
             name: 'NF',
@@ -201,7 +201,7 @@ export let songs = [
         album: 'NF`s album',
         release: new Date().getFullYear() - 2019 + ' years ago',
         url: './songs/NF - When I Grow Up.mp3',
-        image: '../Images/when i grow up.jpg',
+        image: './Images/when i grow up.jpg',
         duration: '3:16',
         singer: {
             name: 'NF',
